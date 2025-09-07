@@ -1,6 +1,6 @@
-# 🔥 Thermal Power Plant Database Management System (DBMS Project)
+#  Thermal Power Plant Database Management System (DBMS Project)
 
-## 📌 Overview
+##  Overview
 This project is a **Database Management System (DBMS)** for a **Thermal Power Plant**.  
 It models real-world entities such as employees, coal suppliers, ash management, power plants, units, runtime, downtime, and power transmission.  
 
@@ -8,7 +8,7 @@ The database is designed using **Oracle SQL**, with properly defined constraints
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Maintain employee records, suppliers, and plant details  
 - Track **coal supply** and **ash management** operations  
 - Monitor **unit runtime, downtime, and production capacity**  
@@ -17,7 +17,7 @@ The database is designed using **Oracle SQL**, with properly defined constraints
 
 ---
 
-## 🛠️ Database Schema
+##  Database Schema
 
 ### Entities & Attributes
 1. **Employee** – Employee details, role, salary, department, etc.  
@@ -37,7 +37,7 @@ The database is designed using **Oracle SQL**, with properly defined constraints
 
 ---
 
-## 📂 SQL Implementation
+##  SQL Implementation
 The SQL script includes:
 - **Drop Statements** – to reset tables  
 - **Create Table Statements** – defining schema with constraints (PK, FK)  
@@ -47,7 +47,7 @@ The SQL script includes:
 
 ---
 
-## 📊 Example Queries Implemented
+##  Example Queries Implemented
 Some sample queries included in the project:
 
 1. Retrieve details of **RTPS units** having downtime in the same month.  
@@ -67,7 +67,7 @@ Some sample queries included in the project:
 
 ---
 
-## 💻 Requirements
+##  Requirements
 - Oracle SQL / MySQL (preferably Oracle since `varchar2` is used)  
 - SQL client such as:
   - Oracle SQL*Plus
@@ -76,7 +76,7 @@ Some sample queries included in the project:
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 1. Copy the SQL script (`thermal_power_plant.sql`) into your SQL client.  
 2. Execute **drop statements** (optional, to reset).  
 3. Run **create and insert statements** to build schema and insert data.  
@@ -85,12 +85,3 @@ Some sample queries included in the project:
 
 ---
 
-## 📌 Conclusion
-This DBMS project successfully models the operations of a **Thermal Power Plant** by:  
-- Managing employee and supplier data  
-- Tracking power generation, transmission, and downtime  
-- Providing powerful analytical queries for decision-making  
-
-It demonstrates the **real-world use of DBMS concepts** like normalization, foreign keys, joins, constraints, and aggregate queries.
-
----
